@@ -1,0 +1,53 @@
+.note-item {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-left: 0.33rem solid transparent;
+  margin-bottom: 0 !important;
+  transition: all 120ms ease-in-out;
+  cursor: pointer;
+}
+
+.note-item:hover {
+  background-color: #e8f9f6;
+  border-color: hsl(171, 100%, 41%);
+}
+
+.note-title {
+  display: inline-block;
+}
+
+.note-delete {
+  float: right;
+  transition: all 120ms ease-in-out;
+}
+
+.add-note-button {
+  position: relative;
+  height: 1.33rem !important;
+  width: 1.33rem !important;
+  margin-left: 0.2rem !important;
+  top: 5px;
+  fill: hsl(171, 100%, 41%);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.smaller {
+  width: 18px;
+  height: 18px;
+}
+
+.dropdown-item:hover {
+  background-color: whitesmoke;
+  color: #0a0a0a;
+}
+
+.note-divider {
+  margin: .5rem 0;
+}
+
+.big-margins {
+  margin: 1.5rem 0;
+}
